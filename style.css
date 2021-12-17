@@ -1,0 +1,210 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600');
+
+.collage{
+    margin-top:40px;    
+}
+/* General */
+body {
+    color: #666666;
+    font-size: 13px;
+	line-height: 23px;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+a{
+	text-decoration: none;
+	color: #777;
+}
+a:hover,a:active,a:focus {
+	outline: 0;
+	text-decoration: none;
+	color: #999;
+}
+
+/* Social Media */
+.facebook {	background: #3280e7; }
+.facebook:hover { background: #134fa0; }
+.twitter { background: #32c8de;}
+.twitter:hover {	background: #188392;}
+.google-plus {background: #f96f4a;}
+.google-plus:hover {	background: #eb6440;}
+.linkedin  {	background: #729fda;}
+.linkedin:hover {background: #3069b6;}
+.pinterest {	background: #ed5441;}
+.pinterest:hover { background: #b72411;}
+.dropbox {background: #32c8de;}
+.dropbox:hover {	background: #188392;}
+.bitcoin {background: #f8a841;}
+.bitcoin:hover {	background: #cc7607;}
+.foursquare {background: #22bed4;}
+.foursquare:hover {background: #146f7c;}
+.flickr { background: #ff61e7;}
+.flickr:hover {	background: #fa00d4;}
+.github {background: #666666;}
+.github:hover {	background: #333333;}
+.instagram {	background: #d6917a;}
+.instagram:hover {background: #b35637;}
+.skype {background: #32c8de;}
+.skype:hover {background: #188392;}
+.tumblr {background: #84a1c8;}
+.tumblr:hover {background: #476d9f;}
+.vimeo {background: #32c8de;}
+.vimeo:hover {background: #188392;}
+.dribbble{background: #ff2edf;}
+.dribbble:hover {background: #c700a9;}
+.youtube {background: #ed5441;}
+.youtube:hover {	background: #b72411;}
+
+/* UI X */
+body{
+	background:#f4f8fd;
+}
+.ui-44{
+	margin:170px 0px;
+}
+.social-collage .social-container {
+	position: relative;
+	max-width: 180px;
+	height: 200px;
+	margin: 100px auto;
+}
+.social-collage .social-item {
+	position: absolute;
+	text-align: center;
+	border: 1px solid #fff;
+	-webkit-transition: all 0.35s ease-out;
+	   -moz-transition: all 0.35s ease-out;
+			transition: all 0.35s ease-out;
+}
+.social-collage .social-item i { color: #fff; }
+.social-collage .facebook { 
+	top: 0;
+	left: 0;
+	z-index: 115;
+	width: 180px;
+	height: 200px;
+	color: #fff;
+	font-size: 100px;
+	line-height: 200px;
+}
+.social-collage .google-plus {
+	top: 100%;
+	left: 100%;
+	z-index: 6;
+	width: 90px;
+	height: 100px;
+	line-height: 100px;
+	margin-left: -40px;
+	font-size: 50px;
+}
+.social-collage .linkedin {
+	top: 100%;
+	right: 40px;
+	z-index: 7;
+	width: 87px;
+	height: 110px;
+	font-size: 40px;
+	line-height: 110px;
+}
+.social-collage .twitter {
+	top: 20px;
+	right: 100%;
+	z-index: 8;
+	width: 120px;
+	height: 130px;
+	font-size: 50px;
+	line-height: 130px;
+}
+.social-collage .pinterest {
+	bottom: 100%;
+	right: 100%;
+	z-index: 9;
+	width: 80px;
+	height: 90px;
+	margin-bottom: -20px;
+	font-size: 35px;
+	line-height: 90px;
+}
+.social-collage .github {
+	bottom: 0;
+	left: 100%;
+	z-index: 10;
+	width: 80px;
+	height: 80px;
+	font-size: 35px;
+	line-height: 80px;
+}
+.social-collage .instagram {
+	bottom: 80px;
+	left: 100%;
+	z-index: 10;
+	width: 130px;
+	height: 150px;
+	font-size: 80px;
+	line-height: 150px;
+}
+.social-collage .flickr {
+	bottom: 100%;
+	left: 0;
+	z-index: 11;
+	width: 120px;
+	height: 120px;
+	font-size: 50px;
+	line-height: 120px;
+}
+.social-collage .youtube {
+	top: 150px;
+	right: 100%;
+	z-index: 10;
+	margin-right: -53px;
+	width: 150px;
+	height: 170px;
+	font-size: 80px;
+	line-height: 170px;
+}
+.social-collage .bitcoin {
+	bottom: 100%;
+	right: 0px;
+	z-index: 10;
+	width: 64px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 27px;
+}
+/* Mobile phones */
+@media (max-width: 480px){
+	.social-collage .social-container  {
+		max-width: 250px !important;
+	}
+	.social-collage .social-item { 
+		margin-bottom: 0px !important;
+		margin-left: 0px !important;
+		width: 49% !important; 
+	}
+}
+/* Tablets */
+@media (max-width: 767px){
+	.social-collage .social-container  {
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+		height: auto;
+	}
+	.social-collage .social-item {
+		position: static;
+		display: inline-block;
+		width: 24%;
+		height: auto;
+		font-size: 50px;
+		line-height: 80px;
+		margin: 0 auto;
+		margin-top: 3px;
+		padding: 20px 0;
+	} 
+}
+
+.mt-4{
+  margin-top: 4%;
+}
